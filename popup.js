@@ -18,3 +18,16 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }, false);
 }, false);
+
+//chrome.contextMenus.create({
+//    title: "Hello world",
+//    contexts:["selection"],
+//    onclick: newTab,
+//
+//});
+//
+//function newTab(tab) {
+//    chrome.tabs.create({
+//        url: "http://www.neopets.com",
+//    })
+//}
